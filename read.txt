@@ -1,0 +1,13 @@
+Pernahkah kamu merasa terlalu asyik bekerja di depan layar sampai lupa waktu? Kadang kita lupa melakukan hal-hal kecil tapi sangat krusial, seperti sekadar minum air atau meregangkan otot punggung yang mulai kaku. 
+
+Berawal dari keresahan inilah, saya mengembangkan **HydraStretch**, sebuah ekstensi Chrome sederhana yang dirancang untuk menemani produktivitas kita tanpa harus mengorbankan kesehatan fisik.
+
+Di ekstensi ini, saya menghadirkan 'Dewi' — asisten digital personal yang akan dengan ramah menyapamu secara berkala untuk:
+💧 **Minum air putih** agar tubuh selalu terhidrasi dan konsentrasi tetap terjaga.
+🧘‍♀️ **Melakukan peregangan** sejenak untuk melemaskan otot-otot yang tegang setelah duduk berjam-jam.
+
+Fitur yang paling saya senangi dari ekstensi ini adalah sistem pengingat cerdasnya. Jika waktunya bersamaan, notifikasi minum dan peregangan akan digabung menjadi satu pesan yang rapi, sehingga tidak akan membanjiri layar atau mengganggu alur kerjamu!
+
+Bekerja keras untuk mengejar target itu penting, tetapi merawat dan menjaga tubuh kita adalah investasi jangka panjang yang sebenarnya. Jangan lupa luangkan waktu sejenak untuk mengambil napas dalam-dalam, minum segelas air, dan meregangkan badanmu hari ini ya! ✨
+
+#Produktivitas #KesehatanKerja #WorkLifeBalance #WebDevelopment #ChromeExtension #HydraStretch #Frontend #ProgrammerLife

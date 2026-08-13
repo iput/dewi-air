@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HydraStretch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header Section -->
+    <header class="app-header">
+      <div class="brand-group">
+        <div class="mascot-wrapper">
+          <img src="assets/water-dewi.svg" alt="Dewi Mascot" class="mascot-img">
+          <span class="pulse-dot"></span>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-name">HydraStretch</h1>
+          <span class="status-badge" id="status-badge">
+            <span class="status-dot"></span>
+            <span id="status-text">Dewi Aktif</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Settings Grid -->
+    <main class="settings-grid">
+      <!-- Water Reminder Card -->
+      <div class="setting-card" id="card-water">
+        <div class="card-left">
+          <div class="icon-box icon-water">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Pengingat Minum</div>
+            <div class="card-desc">Jaga hidrasi & konsentrasi</div>
+          </div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="water-toggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <!-- Stretch Reminder Card -->
+      <div class="setting-card" id="card-stretch">
+        <div class="card-left">
+          <div class="icon-box icon-stretch">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="5" r="2"/>
+              <path d="M9 20l3-6 3 6"/>
+              <path d="M6 12l6-4 6 4"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Pengingat Peregangan</div>
+            <div class="card-desc">Lemaskan otot & persendian</div>
+          </div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="stretch-toggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <!-- Interval Selection Card -->
+      <div class="setting-card interval-card">
+        <div class="card-left">
+          <div class="icon-box icon-time">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Interval Pengingat</div>
+            <div class="card-desc">Jeda waktu antar pengingat</div>
+          </div>
+        </div>
+        <div class="select-wrapper">
+          <select id="interval-select">
+            <option value="10">10 Menit</option>
+            <option value="30">30 Menit</option>
+            <option value="45">45 Menit</option>
+            <option value="60">1 Jam</option>
+            <option value="120">2 Jam</option>
+          </select>
+          <svg class="select-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Actions -->
+    <footer class="app-footer">
+      <button id="test-btn" class="btn-test">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+          <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+        </svg>
+        <span>Uji Notifikasi</span>
+      </button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

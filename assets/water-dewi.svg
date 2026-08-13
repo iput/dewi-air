@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <path d="M64 15 C64 15, 20 65, 20 95 C20 119.3 39.7 139 64 139 C88.3 139 108 119.3 108 95 C108 65, 64 15, 64 15 Z" fill="#7DD3FC" />
+  <!-- Mata Kedip -->
+  <path d="M 41 90 Q 48 85 55 90" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <!-- Mata Terbuka -->
+  <circle cx="80" cy="90" r="7" fill="#334155" />
+  <circle cx="77" cy="87" r="2.5" fill="#FFFFFF" />
+  <path d="M 54 105 Q 64 115 74 105" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+  <!-- Gelas Air -->
+  <rect x="54" y="100" width="20" height="25" fill="#F8FAFC" rx="2" stroke="#334155" stroke-width="3"/>
+  <rect x="56" y="108" width="16" height="15" fill="#38BDF8" rx="1"/>
+</svg>

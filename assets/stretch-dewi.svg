@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <path d="M64 15 C64 15, 20 65, 20 95 C20 119.3 39.7 139 64 139 C88.3 139 108 119.3 108 95 C108 65, 64 15, 64 15 Z" fill="#86EFAC" />
+  <!-- Mata Senang (Menutup) -->
+  <path d="M 41 85 Q 48 80 55 85" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 73 85 Q 80 80 87 85" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  <path d="M 54 100 Q 64 110 74 100" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+  <!-- Tangan Peregangan ke Atas -->
+  <path d="M 25 85 Q 5 45 45 25" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+  <path d="M 103 85 Q 123 45 83 25" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+</svg>
